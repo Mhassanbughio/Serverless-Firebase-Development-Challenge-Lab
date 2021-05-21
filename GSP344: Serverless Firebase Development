@@ -7,5 +7,7 @@ Start by executing the following commands:
 gcloud config set project $(gcloud projects list --format='value(PROJECT_ID)' --filter='qwiklabs-gcp')
 git clone https://github.com/rosera/pet-theory.git
 
+Task - 2: Firestore Database Populate
+
 
 
