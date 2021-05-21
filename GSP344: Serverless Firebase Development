@@ -42,3 +42,8 @@ Goto cloud run and click netflix-dataset-service then copy the url.
 SERVICE_URL=<copy url from your netflix-dataset-service>
 curl -X GET $SERVICE_URL/2019
 
+##################################################################################################################################################
+
+Task - 5: Cloud Build Frontend Staging
+
+
