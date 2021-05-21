@@ -36,3 +36,6 @@ npm install
 gcloud builds submit --tag gcr.io/$GOOGLE_CLOUD_PROJECT/rest-api:0.2
 gcloud beta run deploy netflix-dataset-service --image gcr.io/$GOOGLE_CLOUD_PROJECT/rest-api:0.2 --allow-unauthenticated
 
+
+Goto cloud run and click netflix-dataset-service then copy the url.
+
