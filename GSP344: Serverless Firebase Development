@@ -19,5 +19,9 @@ node index.js netflix_titles_original.csv
 
 Task - 3: Cloud Build Rest API Staging
 
+cd ~/pet-theory/lab06/firebase-rest-api/solution-01
+npm install
+gcloud builds submit --tag gcr.io/$GOOGLE_CLOUD_PROJECT/rest-api:0.1
+gcloud beta run deploy netflix-dataset-service --image gcr.io/$GOOGLE_CLOUD_PROJECT/rest-api:0.1 --allow-unauthenticated
 
 
