@@ -59,4 +59,5 @@ Choose 1 and us-central1
 
 Task - 6: Cloud Build Frontend Production
 gcloud builds submit --tag gcr.io/$GOOGLE_CLOUD_PROJECT/frontend-production:0.1
+gcloud beta run deploy frontend-production-service --image gcr.io/$GOOGLE_CLOUD_PROJECT/frontend-production:0.1
 
